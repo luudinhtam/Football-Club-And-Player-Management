@@ -9,8 +9,8 @@
    package, nếu thư mục con này chưa có thì TBD sẽ tự tạo thư mục này
 */
 
-// Lớp này được để trong gói tool- Thường dùng chữ thường cho tên gói
-package tool;
+// Lớp này được để trong gói Tool- Thường dùng chữ thường cho tên gói
+package Tool;
 
 // Đưa vào (import) lớp này các lớp thư viện 
 import java.util.Scanner; // lớp Scanner trong gói java.util cho viện nhập liệu
