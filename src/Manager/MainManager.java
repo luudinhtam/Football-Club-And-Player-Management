@@ -83,11 +83,11 @@ public class MainManager {
                     break;
                 case 9:
                     playerList.removePlayer();
-                    playerChanged = false;
+                    playerChanged = true;
                     break;
                 case 10:
                     playerList.updatePlayer();
-                    playerChanged = false;
+                    playerChanged = true;
                     break;
                 case 11:
                     playerList.listPlayersByPosition();

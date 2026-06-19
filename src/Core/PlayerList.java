@@ -85,7 +85,23 @@ public class PlayerList extends ArrayList<Player> {
                 }
             }
         }
-        resultList.display();
+        
+        System.out.println("--------------------------------------------------------------------");
+        System.out.println("Player ID |         Club Name        |    Player Name   |   Position   | Shirt Number");
+        System.out.println("--------------------------------------------------------------------");
+        
+        for (Player p : this) {
+            System.out.format(
+                    "%-9s | %-24s | %-16s | %-12s | %-10d\n",
+                    p.getPlayerId(),
+                    this.clubList.getClubNameById(p.getClubId()),
+                    p.getPlayerName(),
+                    p.getPosition(),
+                    p.getShirtNumber());
+        }
+
+        System.out.println("--------------------------------------------------------------------");
+        
     }
 
     // 7. Search players by partial player name match
